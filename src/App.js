@@ -1,11 +1,13 @@
 import Header from "./Header";
 import "./App.css";
 import MainContent from "./MainContent";
+import gsap from "gsap";
 
 function App() {
+  let timeline = gsap.timeline();
   return (
     <div className="App">
-      <Header></Header>
+      <Header timeline={timeline}></Header>
       <MainContent></MainContent>
     </div>
   );
