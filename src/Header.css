@@ -18,6 +18,16 @@
   font-family: "Luxia";
   cursor: pointer;
 }
+.logo:hover  {
+  color: rgba(136, 255, 0);
+  transition: 0.5s all ease-in;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
 
 .menu ul {
   list-style: none;
@@ -34,4 +44,22 @@
   font-family: "Luxia";
   text-transform: uppercase;
   margin-left: 20px;
+}
+
+.menu ul li:hover {
+  color: rgba(136, 255, 0);
+  transition: 0.5s all ease-in;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-right: 50px;
+}
+
+.header-icon:hover {
+  transition: 0.5s all ease-in;
+  color: rgba(136, 255, 0);
+  cursor: pointer;
 }
