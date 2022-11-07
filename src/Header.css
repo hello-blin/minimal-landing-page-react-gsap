@@ -15,7 +15,7 @@
   margin-left: 50px;
   font-size: 30px;
   font-weight: 500;
-  font-family: "Manrope";
+  font-family: "Luxia";
   cursor: pointer;
 }
 
@@ -23,6 +23,7 @@
   list-style: none;
   display: flex;
   flex-direction: row;
+  gap: 30px;
   margin-right: 50px;
   cursor: pointer;
 }
@@ -30,6 +31,7 @@
 .menu ul li {
   font-weight: 300;
   font-size: 20px;
-  font-family: "Manrope";
+  font-family: "Luxia";
+  text-transform: uppercase;
   margin-left: 20px;
 }

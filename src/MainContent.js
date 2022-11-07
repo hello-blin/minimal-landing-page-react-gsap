@@ -8,8 +8,7 @@ export default function MainContent({timeline}) {
   let contentp = useRef(null);
   useEffect(() => {
     timeline.to(bg, {
-      delay: 1,
-      duration: 2,
+      duration: 1,
       y: "-50%",
       x: "-50%",
       opacity: 1,
