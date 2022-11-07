@@ -7,8 +7,8 @@ function App() {
   let timeline = gsap.timeline();
   return (
     <div className="App">
-      <Header timeline={timeline}></Header>
-      <MainContent></MainContent>
+      <Header timeline={timeline}/>
+      <MainContent timeline={timeline}/>
     </div>
   );
 }

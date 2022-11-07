@@ -7,29 +7,24 @@ function Header({ timeline }) {
   useEffect(() => {
     timeline.from(logo, {
       delay: 0.5,
-      duration: 0.5,
+      duration: 1,
       opacity: 0,
       y: 100,
     });
-    timeline.from(
-      menu_items,
-      {
-        delay: 0.5,
-        duration: 0.5,
-        opacity: 0,
-        y: 100,
-      },
-      "-=.1"
-    );
+    timeline.from(menu_items, {
+      duration: 1,
+      opacity: 0,
+      y: 100,
+    }, "-=.5");
   });
   return (
     <div>
       <div className="header">
-        <div className="logo" ref={el => logo = el}>
-          LOGO
+        <div className="logo" ref={(el) => (logo = el)}>
+          REYNA
         </div>
         <div className="menu">
-          <ul ref={el => menu_items = el}>
+          <ul ref={(el) => (menu_items = el)}>
             <li>Shop</li>
             <li>About</li>
             <li>Contact</li>
